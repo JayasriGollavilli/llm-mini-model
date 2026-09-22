@@ -1,0 +1,2 @@
+MODEL_NAME = "gpt2"
+MAX_NEW_TOKENS = 20
