@@ -14,7 +14,7 @@ def tokenize_text(text):
     # Convert text into token IDs
     token_ids = tokenizer.encode(text, add_special_tokens=False)
 
-    print("\n========== SANIA: TOKENIZATION ==========")
+    print("\n========== TOKENIZATION ==========")
     print("Input Text:", text)
     print("Tokens:", tokens)
     print("Token IDs:", token_ids)
